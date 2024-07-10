@@ -29,7 +29,7 @@ const Navbar = () => {
         <button
           className={`${sync.className} bg-black px-7 max-md:px-2 max-md:py-1 text-white `}
         >
-          Find us
+          Find us.
         </button>
       </Link>
     </div>
