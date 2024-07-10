@@ -27,7 +27,7 @@ const Navbar = () => {
       <Link href="https://priceguru.vercel.app">
         {" "}
         <button
-          className={`${sync.className} bg-black px-7 max-md:px-2 max-md:py-1 text-white `}
+          className={`${sync.className} bg-black px-7 max-md:px-2 max-md:py-2 text-white `}
         >
           Find us.
         </button>
