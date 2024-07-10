@@ -9,9 +9,12 @@ const sync = Syncopate({
 });
 const Navbar = () => {
   return (
-    <div className=" w-full h-fit py-6  flex justify-between pr-4">
-      <div>
+    <div className=" w-full h-fit py-3 max-md:my-5 md:my-3  flex justify-between pr-4 max-md:border-b-[1px] max-md:border-solid border-[#e4b9b9]">
+      <div className="max-md:hidden">
         <Image src={Guru} alt="Logo for price guru" width={250} height={200} />
+      </div>
+      <div className="md:hidden">
+        <Image src={Guru} alt="Logo for price guru" width={150} height={100} />
       </div>
       <button
         className={`${sync.className} bg-black px-7 max-md:px-2 max-md:py-1 text-white `}

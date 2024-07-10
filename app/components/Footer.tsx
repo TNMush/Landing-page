@@ -7,8 +7,8 @@ import Guru from "../../public/guru.png";
 
 const Footer = () => {
   return (
-    <div className=" h-80 w-full ">
-      <div className="flex flex-col px-6   space-y-4">
+    <div className=" h-fit py-10 w-full ">
+      <div className="flex max-md:flex-col md:space-x-8 px-6   max-md:space-y-4 justify-center">
         <Link
           href={"https://github.com/santan34/priceguru"}
           className=" flex flex-row  items-center"
@@ -38,6 +38,9 @@ const Footer = () => {
           <FaLinkedinIn className="text-3xl mr-2 max-md:text-2xl text-gray-500" />
           Visit my LinkedIn
         </Link>
+      </div>
+      <div className="flex flex-row md:justify-center pt-4">
+        {" "}
         <Image src={Guru} alt="Logo for price guru" width={250} height={200} />
       </div>
     </div>
