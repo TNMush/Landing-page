@@ -5,6 +5,7 @@ import Computers from "../../public/computers.jpg";
 import Picture1 from "../../public/picture1.png";
 import Picture2 from "../../public/Screenshot 2024-07-06 000104.png";
 import Picture3 from "../../public/image.png";
+import Link from "next/link";
 const gilda = Gilda_Display({
   weight: "400", // You can specify the weight if needed
   style: "normal", // Style can be normal or italic
@@ -56,11 +57,13 @@ const MainArea = () => {
             </p>
             <p>from top retailers with just a few clicks.</p>
             <div className="pt-5">
-              <button
-                className={`${sync.className} bg-black px-7 py-4 max-md:px-2 max-md:py-1 text-white `}
-              >
-                Learn More
-              </button>
+              <Link href={"https://priceguru.vercel.app/"}>
+                <button
+                  className={`${sync.className} bg-black px-7 py-4 max-md:px-2 max-md:py-1 text-white `}
+                >
+                  Learn More
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -104,11 +107,13 @@ const MainArea = () => {
           <p className="text-center max-md:py-3">
             Search for products by name from multiple marketplaces in one go.
           </p>
-          <button
-            className={`${sync.className} bg-black px-7 py-4 max-md:px-2 max-md:py-1 text-white mt-4`}
-          >
-            Learn More
-          </button>
+          <Link href={"https://priceguru.vercel.app/"}>
+            <button
+              className={`${sync.className} bg-black px-7 py-4 max-md:px-2 max-md:py-1 text-white `}
+            >
+              Learn More
+            </button>
+          </Link>
         </div>
       </section>{" "}
       <section className="w-full  flex flex-row pt-[100px] max-md:py-[100px] px-6 max-md:flex-col">
@@ -145,11 +150,13 @@ const MainArea = () => {
             Easy price comparisons for products from multiple Zimbabwean
             websites.
           </p>{" "}
-          <button
-            className={`${sync.className} bg-black px-7 py-4 max-md:px-2 max-md:py-1 text-white mt-4`}
-          >
-            Learn More
-          </button>
+          <Link href={"https://priceguru.vercel.app/"}>
+            <button
+              className={`${sync.className} bg-black px-7 py-4 max-md:px-2 max-md:py-1 text-white `}
+            >
+              Learn More
+            </button>
+          </Link>
         </div>
         <div className="md:w-1/2 w-full flex justify-center">
           <Image src={Picture2} alt="computers" />
@@ -165,11 +172,13 @@ const MainArea = () => {
             Easy price comparisons for products from multiple Zimbabwean
             websites.
           </p>{" "}
-          <button
-            className={`${sync.className} bg-black px-7 py-4 max-md:px-2 max-md:py-1 text-white mt-4`}
-          >
-            Learn More
-          </button>
+          <Link href={"https://priceguru.vercel.app/"}>
+            <button
+              className={`${sync.className} bg-black px-7 py-4 max-md:px-2 max-md:py-1 text-white `}
+            >
+              Learn More jongwe
+            </button>
+          </Link>
         </div>
       </section>
       <section className="w-full  flex flex-row md:py-[150px] py-[70px] bg-[#f8f3f3] max-md:flex-col">
