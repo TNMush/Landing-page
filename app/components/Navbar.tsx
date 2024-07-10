@@ -24,10 +24,10 @@ const Navbar = () => {
       <div className="md:hidden">
         <Image src={Guru} alt="Logo for price guru" width={150} height={100} />
       </div>
-      <Link href="https://priceguru.vercel.app">
+      <Link href="https://priceguru.vercel.app" className="h-fit">
         {" "}
         <button
-          className={`${sync.className} bg-black px-7 max-md:px-2 max-md:py-2 text-white `}
+          className={`${sync.className} bg-black py-3 px-7 max-md:px-2 max-md:py-2 text-white `}
         >
           Find us.
         </button>
