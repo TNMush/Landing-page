@@ -176,7 +176,7 @@ const MainArea = () => {
             <button
               className={`${sync.className} bg-black px-7 py-4 max-md:px-2 max-md:py-1 text-white `}
             >
-              Learn More jongwe
+              Learn More
             </button>
           </Link>
         </div>
